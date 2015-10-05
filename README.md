@@ -25,3 +25,5 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 
 Adds a button in CKEditor to display code.
 Use [google-code-prettify](https://code.google.com/p/google-code-prettify/).
+
+[CMSUno](https://github.com/boiteasite/cmsuno)
