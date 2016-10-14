@@ -21,9 +21,15 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
      \____/           \/    \/            \__/
 </pre>
 
-### Code Display ###
+## Code Display ##
 
 Adds a button in CKEditor to display code.
-Use [google-code-prettify](https://code.google.com/p/google-code-prettify/).
+Use [google-code-prettify](https://github.com/google/code-prettify).
 
 [CMSUno](https://github.com/boiteasite/cmsuno)
+
+### Versions ###
+
+* 1.2 - 14/10/2016 : Use PHP-Gettext in place of gettext
+* 1.1 - 27/05/2015 : Update google-code-prettify (moved to GitHub).
+* 1.0 - 05/10/2015 : First stable version
