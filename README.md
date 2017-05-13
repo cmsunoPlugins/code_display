@@ -30,6 +30,7 @@ Use [google-code-prettify](https://github.com/google/code-prettify).
 
 ### Versions ###
 
+* 1.2.2 - 15/05/2017 : Update Google-Code-Prettify
 * 1.2.1 - 15/03/2017 : Fix issue when unknow lang
 * 1.2 - 14/10/2016 : Use PHP-Gettext in place of gettext
 * 1.1 - 27/05/2015 : Update google-code-prettify (moved to GitHub).
