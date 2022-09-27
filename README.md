@@ -30,6 +30,7 @@ Use [google-code-prettify](https://github.com/google/code-prettify).
 
 ### Versions ###
 
+* 1.2.4 - 27/09/2022 : Responsive display
 * 1.2.3 - 04/12/2017 : Update PBCKcode to 1.2.5
 * 1.2.2 - 15/05/2017 : Update Google-Code-Prettify
 * 1.2.1 - 15/03/2017 : Fix issue when unknow lang
