@@ -24,12 +24,17 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 ## Code Display ##
 
 Adds a button in CKEditor to display code.
-Use [google-code-prettify](https://github.com/google/code-prettify).
+Use [HighlightJS](https://github.com/highlightjs/highlight.js/).
 
 [CMSUno](https://github.com/boiteasite/cmsuno)
 
 ### Versions ###
 
+* 1.3 - 21/12/2022 :
+	* Replace Google-Code-Prettify with HighlightJS.
+	* Optional theme and line numbers can be chosen.
+	* CKEditor plugin CodeSnippet replace PBCKcode.
+	* In Multipage environment, the configuration can be global or specific to a page.
 * 1.2.5 - 01/12/2022 : JQuery free
 * 1.2.4 - 27/09/2022 : Responsive display
 * 1.2.3 - 04/12/2017 : Update PBCKcode to 1.2.5

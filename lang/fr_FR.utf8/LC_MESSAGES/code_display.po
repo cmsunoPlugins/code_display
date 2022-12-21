@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-15 18:41+0100\n"
-"PO-Revision-Date: 2017-03-15 18:41+0100\n"
+"POT-Creation-Date: 2022-12-21 16:56+0100\n"
+"PO-Revision-Date: 2022-12-21 16:58+0100\n"
 "Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: fr_FR\n"
@@ -18,11 +18,11 @@ msgstr ""
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: ../../../code_display.php:17 ../../../code_display.php:21
+#: ../../../code_display.php:18
 msgid "Code Display"
 msgstr "Code Display"
 
-#: ../../../code_display.php:18
+#: ../../../code_display.php:19
 msgid ""
 "This plugin allows you to insert code (PHP, HTML, JS, CSS) with syntax "
 "highlighting in the content of the page."
@@ -30,11 +30,46 @@ msgstr ""
 "Ce plugin permet d'ins&eacute;rer du code (PHP, HTML, JS, CSS) avec "
 "coloration syntaxique dans le contenu de la page."
 
-#: ../../../code_display.php:19
+#: ../../../code_display.php:21
 msgid "It is used with the button"
 msgstr "Il s'utilise avec le bouton"
 
-#: ../../../code_display.php:19
+#: ../../../code_display.php:23
 msgid "added to the text editor when the plugin is active."
 msgstr ""
 "ajout&eacute; &agrave; l'&eacute;diteur de texte lorsque le plugin est actif."
+
+#: ../../../code_display.php:27
+msgid "Output CSS"
+msgstr "CSS de sortie"
+
+#: ../../../code_display.php:43
+msgid "Line number"
+msgstr "Numéro de ligne"
+
+#: ../../../code_display.php:45
+msgid "Adds line numbers."
+msgstr "Ajoute des numéros de ligne."
+
+#: ../../../code_display.php:50
+msgid "Only this page"
+msgstr "Uniquement cette page"
+
+#: ../../../code_display.php:52
+msgid ""
+"This configuration will be applied only on this page (Multipage environment)."
+msgstr ""
+"Cette configuration sera appliquée uniquement sur cette page (environnement "
+"Multipage)."
+
+#: ../../../code_display.php:57
+msgid "Save"
+msgstr "Sauvegarde"
+
+#: ../../../code_display.php:83 ../../../code_display.php:87
+msgid "Backup performed"
+msgstr "Sauvegarde effectuée"
+
+#: ../../../code_display.php:84 ../../../code_display.php:88
+msgid "Impossible backup"
+msgstr "Sauvegarde impossible"

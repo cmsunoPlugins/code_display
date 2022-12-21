@@ -4,16 +4,9 @@
 //
 UconfigNum++;
 
-CKEDITOR.plugins.addExternal('pbckcode',UconfigFile[UconfigNum-1]+'/../pbckcode/');
+CKEDITOR.plugins.addExternal('codesnippet',UconfigFile[UconfigNum-1]+'/../codesnippet/');
 CKEDITOR.editorConfig = function(config){
-	config.extraPlugins += ',pbckcode';
-	config.toolbarGroups.push('pbckcode');
-	config.pbckcode = {
-		cls : '',
-		highlighter : 'PRETTIFY',
-		modes :  [ ['HTML', 'html'], ['CSS', 'css'], ['PHP', 'php'], ['JS', 'javascript'] ],
-		theme : 'textmate',
-		tab_size : '4'
-	};
+	config.extraPlugins += ',codesnippet';
+	config.toolbarGroups.push('codesnippet');
 	if(UconfigFile.length>UconfigNum)config.customConfig=UconfigFile[UconfigNum];
 };
