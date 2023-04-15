@@ -30,6 +30,7 @@ Use [HighlightJS](https://github.com/highlightjs/highlight.js/).
 
 ### Versions ###
 
+* 1.3.1 - 15/04/2023 : Add post ubusy
 * 1.3 - 21/12/2022 :
 	* Replace Google-Code-Prettify with HighlightJS.
 	* Optional theme and line numbers can be chosen.

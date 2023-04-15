@@ -6,6 +6,7 @@ function load_codeDisplay(){
 	let x=new FormData(),t=document.getElementById('codisCss'),to=t.options,v,s;
 	x.set('action','load');
 	x.set('unox',Unox);
+	x.set('ubusy',Ubusy);
 	fetch('uno/plugins/code_display/code_display.php',{method:'post',body:x})
 	.then(r=>r.json())
 	.then(function(r){
@@ -32,6 +33,7 @@ function save_codeDisplay(){
 	if(p!=null&&p.checked)p=1;else p=0;
 	h.set('action','save');
 	h.set('unox',Unox);
+	x.set('ubusy',Ubusy);
 	h.set('css',c.options[c.selectedIndex].value);
 	h.set('num',document.getElementById('codisNumber').checked?1:0);
 	h.set('pag',p);
