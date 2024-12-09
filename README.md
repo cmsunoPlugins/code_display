@@ -25,11 +25,13 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 
 Adds a button in CKEditor to display code.
 Use [HighlightJS](https://github.com/highlightjs/highlight.js/).
+Language included : bash,c,c++,c#,css,java,javascript,json,kotlin,less,lisp,makefile,markdown,perl,php,php-template,python,python-repl,scheme,scssshell,sql,typescript,vbnet,xml,yaml
 
 [CMSUno](https://github.com/boiteasite/cmsuno)
 
 ### Versions ###
 
+* 1.3.2 - 09/12/2024 : Update HighlightJS 11.9.0
 * 1.3.1 - 15/04/2023 : Add post ubusy
 * 1.3 - 21/12/2022 :
 	* Replace Google-Code-Prettify with HighlightJS.
